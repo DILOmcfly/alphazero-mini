@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific - Trained models (can be very large)
+models/*.pth
+models/*.pt
+models/*.pkl
+
+# Training data
+data/*.pkl
+data/*.json
+data/*.npz
+
+# Logs
+*.log
+logs/
+
+# Jupyter Notebooks (por si usas notebooks más adelante)
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TensorBoard
+runs/
