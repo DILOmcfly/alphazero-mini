@@ -1,0 +1,30 @@
+# AlphaZero-Mini Project Rules
+
+## Project Overview
+This is a reinforcement learning project implementing a simplified AlphaZero algorithm for Connect4.
+The goal is educational: building a self-learning AI from scratch.
+
+## Technology Stack
+- Language: Python 3.10+
+- Deep Learning Framework: PyTorch
+- Game: Connect4 (6x7 board)
+
+## Coding Standards
+- Follow PEP8 style guide (Python's official style)
+- Use type hints for function parameters and returns
+- Add docstrings to all classes and functions
+- Prioritize code clarity over cleverness
+- Add comments explaining WHY, not WHAT (the code shows what)
+
+## AI Assistant Behavior
+- Explain complex concepts in simple terms
+- When writing code, explain the logic before generating
+- If multiple approaches exist, explain trade-offs
+- Ask clarifying questions if requirements are ambiguous
+- Suggest improvements when you spot inefficiencies
+
+## Project-Specific Guidelines
+- Keep the neural network simple (4-6 residual blocks max)
+- Add print statements for training progress visibility
+- Save checkpoints frequently (every 10 iterations)
+- Use descriptive variable names (no single letters except i, j for loops)
